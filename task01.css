@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    background-size: cover;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.page {
+    width: 350px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.page h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.page input {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(100% - 20px);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.page a {
+    font-size: 14px;
+    margin: 15px;
+    color: blue;
+    text-decoration: none;
+}
+
+.page a:hover {
+    text-decoration: underline;
+}
+
+.page p {
+    font-size: 16px;
+    margin: 15px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: blue;
+    color: azure;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.button.but {
+    background-color: aliceblue;
+    color: black;
+}
+
+.button.but:hover {
+    background-color: blue;
+    color: azure;
+}
